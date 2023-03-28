@@ -36,7 +36,6 @@ public class GradeBookController {
 	@Autowired
 	CourseRepository courseRepository;
 
-	@Qualifier("RegistrationService")
 	@Autowired
 	RegistrationService registrationService;
 
